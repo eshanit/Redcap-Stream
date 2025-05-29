@@ -2,8 +2,13 @@
 
 @import "tw-animate-css";
 
+@import 'ag-grid-community/styles/ag-grid.css';
+
+@import 'ag-grid-community/styles/ag-theme-quartz.css';
+
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
+
 
 @custom-variant dark (&:is(.dark *));
 
